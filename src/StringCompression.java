@@ -20,7 +20,7 @@ public class StringCompression {
         }
 
         // Check which to print
-        if (compressed.length() < s.length()) {
+       if (compressed.length() <= s.length()){
             System.out.print(compressed.toString());
         } else {
             System.out.print(s);
